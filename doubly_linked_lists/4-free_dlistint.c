@@ -16,6 +16,10 @@ void free_dlistint(dlistint_t *head)
 	{
 		if(current->prev != NULL)
 			free(current->prev);
-		current = current->next;
+
+		if(current->next == NULL)
+			free(current);
+
+		current = current->next;		
 	}
 }
