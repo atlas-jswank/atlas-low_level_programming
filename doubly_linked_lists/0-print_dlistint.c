@@ -13,5 +13,5 @@ printf("%d\n", current->n);
 current = current->next;
 length++;
 }
-return length;
+return (length);
 }
