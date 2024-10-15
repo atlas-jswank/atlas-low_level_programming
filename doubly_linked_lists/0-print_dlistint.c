@@ -3,6 +3,9 @@
 #include <stdio.h>
 #include "lists.h"
 
+/** 
+ * print_dlistint - Prints all the elements of a dlistint_t list.
+ */
 size_t print_dlistint(dlistint_t *head)
 {
 dlistint_t *current = head;
