@@ -5,7 +5,7 @@
 
 /**
 	* dlistint_len - Prints all the elements of a dlistint_t list.
-	* @head: The head of the dlistint_t list.
+	* @h: The head of the dlistint_t list.
 	* Return: The number of nodes in the list.
 	*/
 size_t dlistint_len(dlistint_t *h)
