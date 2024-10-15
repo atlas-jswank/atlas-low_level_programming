@@ -10,13 +10,13 @@
 	*/
 size_t dlistint_len(dlistint_t *h)
 {
-				dlistint_t *current = h;
-				size_t length = 0;
+	dlistint_t *current = h;
+	size_t length = 0;
 
-				while (current != NULL)
-				{
-								current = current->next;
-								length++;
-				}
-				return (length);
+	while (current != NULL)
+	{
+		current = current->next;
+		length++;
+	}
+	return (length);
 }
