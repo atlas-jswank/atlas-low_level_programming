@@ -20,6 +20,6 @@ void free_dlistint(dlistint_t *head)
 		if (current->next == NULL)
 			free(current);
 
-		current = current->next;		
+		current = current->next;
 	}
 }
