@@ -6,7 +6,7 @@
 /**
  * delete_dnodeint_at_index - delete node at index
  * @head: The head of the dlistint_t list.
- * @idx: node index
+ * @index: node index
  * Return: 1 if it succeeded, -1 if it failed
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
