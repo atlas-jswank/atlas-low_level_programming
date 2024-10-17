@@ -1,9 +1,14 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "hash_tables.h"
+
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
     unsigned long int index;
     hash_node_t *node;
 
-    if(ht == NULL || key == NULL || *key == '\0' || value == NULL)
+    if(ht == NULL || key == NULL || *key == '\0')
         return 0;
 
     index = key_index((unsigned char *)key, ht->size);
